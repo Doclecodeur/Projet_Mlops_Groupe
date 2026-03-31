@@ -1,0 +1,28 @@
+# Environnements virtuels
+venv/
+.venv/
+
+# Cache Python
+__pycache__/
+*.pyc
+*.pyo
+
+# MLflow
+mlruns/
+*.db
+
+# Git
+.git/
+.github/
+
+# Tests
+tests/
+
+# Fichiers Windows
+*.bat
+
+# Données brutes
+*.csv
+
+# Logs
+*.log
