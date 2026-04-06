@@ -23,7 +23,7 @@ TARGET = 'default'
 
 
 def load_data():
-    df = pd.read_csv("Loan_Data.csv")
+    df = pd.read_csv("data/Loan_Data.csv")
     df.dropna(inplace=True)
     df.drop(columns=['customer_id'], inplace=True)
     X = df[FEATURES]
