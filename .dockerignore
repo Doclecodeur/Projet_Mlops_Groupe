@@ -1,0 +1,11 @@
+venv/
+.venv/
+__pycache__/
+*.pyc
+mlruns/
+*.db
+.git/
+.github/
+tests/
+*.csv
+*.log
