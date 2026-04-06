@@ -2,9 +2,9 @@ name: CI/CD - Credit Risk MLOps
 
 on:
   push:
-    branches: [ main, Mlops_wdoisy ]
+    branches: [ main, develop] 
   pull_request:
-    branches: [ main, Mlops_wdoisy ]
+    branches: [ main, develop]
 
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
