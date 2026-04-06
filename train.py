@@ -30,7 +30,7 @@ def load_data():
     y = df[TARGET]
     return X, y
 
-
+# Fonction principale d'entraînement
 def train():
     X, y = load_data()
 
