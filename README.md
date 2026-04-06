@@ -5,4 +5,5 @@ Wilguy | Lydia | Soraya
 pip install -r requirements.txt
 python train.py
 python app.py
-docs: update README
+
+UPDATE READ ME 
