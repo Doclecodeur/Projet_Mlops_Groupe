@@ -60,4 +60,6 @@ jobs:
     if: github.ref == 'refs/heads/main' && github.event_name == 'push'
     steps:
       - name: Deploy
-        run: echo "Pipeline CI/CD terminé avec succès !"
+        run: |
+            curl -X POST ${{ secrets.RENDER_DEPLOY_HOOK }}
+            echo "Déploiement déclenché sur Render !"
